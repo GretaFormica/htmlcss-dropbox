@@ -1,0 +1,33 @@
+/* head */
+
+ul>li{
+	display: inline-block;
+}
+
+header{
+	width: 100vw;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+
+
+	/* debug */
+	border: 2px dashed black;
+	background-color: white;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	
+
+	/* debug */
+	border: 2px dashed red;
+}
+
+#logo-small{
+	width: 90px;
+}
