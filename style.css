@@ -31,3 +31,40 @@ header{
 #logo-small{
 	width: 90px;
 }
+
+/* MAIN */
+
+.jumbo{
+	background-color: #B4D0E7;
+	width: 100vw;
+	height: 80vh;
+	padding-top: 20px;
+}
+
+h1{
+	font-size: 80px;
+}
+
+.flex{
+	display: flex;
+}
+
+.text{
+	width: calc(100% / 3 );
+	padding-top: 30px;
+	
+	/* debug */
+	border: 2px dashed red;
+}
+
+.img{
+	width: calc(100% / 3 * 2);
+
+	/* debug */
+	border: 2px dashed red;
+}
+
+.jumbo-img{
+	position: relative;
+	top: 30px;
+}
