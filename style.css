@@ -118,3 +118,24 @@ h2{
 	border: 1px solid gray;
 	padding: 10px;
 }
+
+.title{
+	border-bottom: 1px solid gray;
+	text-align: center;
+	margin: auto;
+}
+
+.row-bottom{
+	width: 100%;
+	margin-top: 50px;
+	padding: 10px;
+	border: 1px solid gray;
+}
+
+.l-col{
+	width: calc(100% / 3 * 2);
+}
+
+.s-col{
+	width: calc(100% / 3 );
+}
