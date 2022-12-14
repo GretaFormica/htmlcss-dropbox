@@ -5,5 +5,17 @@
 	margin: 0 auto;
 
 	/* debug */
+	/* border: 2px dashed black; */
+}
+
+.small-container {
+	max-width: 60%;
+	margin: 0 auto;
+
+	/* debug */
+	margin-top: 150px;
+	height: 400vh;
 	border: 2px dashed black;
 }
+
+

@@ -1,3 +1,9 @@
+/* GENERICS */
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
 /* head */
 
 ul>li{
@@ -14,7 +20,7 @@ header{
 
 
 	/* debug */
-	border: 2px dashed black;
+	/* border: 2px dashed black; */
 	background-color: white;
 }
 
@@ -25,7 +31,7 @@ header{
 	
 
 	/* debug */
-	border: 2px dashed red;
+	/* border: 2px dashed red; */
 }
 
 #logo-small{
@@ -33,6 +39,9 @@ header{
 }
 
 /* MAIN */
+
+
+/* JUMBOTRON */
 
 .jumbo{
 	background-color: #B4D0E7;
@@ -42,7 +51,7 @@ header{
 }
 
 h1{
-	font-size: 80px;
+	font-size: 70px;
 }
 
 .flex{
@@ -54,17 +63,58 @@ h1{
 	padding-top: 30px;
 	
 	/* debug */
-	border: 2px dashed red;
+	/* border: 2px dashed red; */
 }
 
 .img{
 	width: calc(100% / 3 * 2);
 
 	/* debug */
-	border: 2px dashed red;
+	/* border: 2px dashed red; */
 }
 
 .jumbo-img{
 	position: relative;
 	top: 30px;
+}
+
+/* CONTENT */
+
+h2{
+	font-size: 50px;
+}
+
+.radio{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: gray;
+	border: 5px solid blue;
+}
+
+.fatturazione>div{
+	display: inline-block;
+}
+
+.fatturazione>p{
+	display: inline-block;
+}
+
+.fatturazione{
+	display: inline-block;
+	margin-top: 40px;
+	margin-right: 50px;
+}
+
+.row{
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.col{
+	width: calc(100% / 3 - 20px);
+	border: 1px solid gray;
+	padding: 10px;
 }
