@@ -14,8 +14,13 @@
 
 	/* debug */
 	margin-top: 150px;
-	height: 400vh;
+	height: 600vh;
 	border: 2px dashed black;
 }
 
-
+button{
+	background-color: #0967FE;
+	color: white;
+	padding: 5px;
+	border: none;
+}
