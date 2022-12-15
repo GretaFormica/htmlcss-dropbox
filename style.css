@@ -14,6 +14,10 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
+	position: fixed;
+	background-color: white;
+	z-index: 1;
+	
 }
 
 .nav{
@@ -28,6 +32,9 @@ header{
 
 /* MAIN */
 
+main{
+	padding-top: 70px;
+}
 
 /* JUMBOTRON */
 
@@ -95,7 +102,7 @@ h2{
 }
 
 .radio.checked{
-	border: 5px solid blue;
+	border: 5px solid #0967FE;
 
 }
 
@@ -128,6 +135,9 @@ h2{
 
 .col{
 	width: calc(100% / 3 - 20px);
+}
+
+.col.border{
 	border: 1px solid gray;
 }
 

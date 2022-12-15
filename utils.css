@@ -18,6 +18,17 @@ button{
 	align-self: start;
 }
 
+.btn-white{
+	background-color: white;
+	color: gray;
+	border: 2px solid gray;
+}
+
+.btn-black{
+	background-color: white;
+	color: black;
+}
+
 ul, li, a{
 	display: inline-block;
 }
