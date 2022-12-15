@@ -11,15 +11,21 @@
 .small-container {
 	max-width: 60%;
 	margin: 0 auto;
-
-	/* debug */
 	margin-top: 150px;
-	border: 2px dashed black;
+	
+	/* debug */
+	/* 
+	border: 2px dashed black; */
 }
 
 button{
 	background-color: #0967FE;
 	color: white;
-	padding: 5px;
+	padding: 10px 20px;
 	border: none;
+	align-self: start;
+}
+
+ul, li, a{
+	display: inline-block;
 }
