@@ -2,6 +2,7 @@
 
 body{
 	font-family: 'Poppins', sans-serif;
+	width: 100vw;
 }
 
 /* head */
@@ -84,8 +85,13 @@ h2{
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background-color: gray;
+	background-color: white;
+	border: 1px solid gray;
+}
+
+.radio.checked{
 	border: 5px solid blue;
+
 }
 
 .fatturazione>div{
@@ -94,12 +100,16 @@ h2{
 
 .fatturazione>p{
 	display: inline-block;
+	vertical-align: middle;
 }
 
 .fatturazione{
 	display: inline-block;
 	margin-top: 40px;
 	margin-right: 50px;
+
+
+	line-height: 30px;
 }
 
 .row{
@@ -114,13 +124,28 @@ h2{
 .col{
 	width: calc(100% / 3 - 20px);
 	border: 1px solid gray;
-	padding: 10px;
 }
 
 .title{
 	border-bottom: 1px solid gray;
 	text-align: center;
 	margin: auto;
+}
+
+.text-area{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 10px;
+}
+
+.text-area-ul li::marker{
+	content: '<i class="fa-solid fa-check"></i>';
+}
+
+.border-bottom{
+	width: 20px;
+	border-bottom: 1px solid gray;
 }
 
 .row-bottom{
