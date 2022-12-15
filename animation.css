@@ -1,0 +1,43 @@
+/* ANIMAZIONI */
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.hover{
+    line-height: 68px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.hover:hover{
+    box-shadow: 0 2px #0967FE;
+}
+
+button{
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: #0967fec7;
+}
+
+.btn-white,
+.btn-black{
+    transition: all 0.3s ease;
+}
+
+.btn-white:hover,
+.btn-black:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.732);
+}
+
+.domanda:hover .d-none{
+    display: block;
+}
+
+.domanda:hover .chevron{
+    transform: rotate(180deg);
+}
+
