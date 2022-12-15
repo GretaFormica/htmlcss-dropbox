@@ -3,19 +3,11 @@
 .big-container {
 	max-width: 70%;
 	margin: 0 auto;
-
-	/* debug */
-	/* border: 2px dashed black; */
 }
 
 .small-container {
 	max-width: 60%;
 	margin: 0 auto;
-	margin-top: 150px;
-	
-	/* debug */
-	/* 
-	border: 2px dashed black; */
 }
 
 button{
