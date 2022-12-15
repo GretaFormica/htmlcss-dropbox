@@ -13,21 +13,12 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
-
-
-	/* debug */
-	/* border: 2px dashed black; */
-	background-color: white;
 }
 
 .nav{
 	display: flex;
 	align-items: center;
 	gap: 20px;
-	
-
-	/* debug */
-	/* border: 2px dashed red; */
 }
 
 #logo-small{
@@ -43,18 +34,16 @@ header{
 	background-color: #B4D0E7;
 	width: 100vw;
 	height: 80vh;
-	
-	
 }
 
 .big-container.jumbo{
 	position: relative;
-	top: 50px;
+	top: 20px;
 }
 
 h1{
 	font-size: 70px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .flex{
