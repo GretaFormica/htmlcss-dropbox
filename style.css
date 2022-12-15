@@ -287,6 +287,10 @@ h5{
 
 /* Q&A */
 
+.QeA{
+	margin-top: 40px;
+}
+
 .domanda{
 	padding: 20px 0;
 	margin-top: 10px;
@@ -322,4 +326,14 @@ h5{
 	width: 25%;
 	padding: 30px;
 	line-height: 40px;
+}
+
+.footer-end{
+	padding: 30px;
+}
+
+.border-bottom-white{
+	border-bottom: 1px solid white;
+	width: 50px;
+	margin-bottom: 50px;
 }
