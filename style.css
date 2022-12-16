@@ -102,7 +102,7 @@ h2{
 }
 
 .radio.checked{
-	border: 5px solid #0967FE;
+	border: 5px solid var(--main-color);
 
 }
 
@@ -154,8 +154,17 @@ h2{
 	padding: 10px;
 }
 
-.text-area-ul li::marker{
-	content: '<i class="fa-solid fa-check"></i>';
+.fa-check{
+	color: var(--main-color);
+}
+
+.a-colored{
+	color: var(--main-color);
+	text-decoration:underline;
+}
+
+.text-gray{
+	color: gray;
 }
 
 .border-bottom{
@@ -205,9 +214,6 @@ h4{
 	width: calc(100% / 3);
 	display: flex;
 	flex-wrap: wrap;
-
-	/* debug */
-	/* border: 1px dashed red; */
 }
 
 .logos{

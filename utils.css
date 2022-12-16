@@ -1,4 +1,7 @@
 /* Utils */
+:root{
+	--main-color: #0967FE;
+}
 
 .big-container {
 	max-width: 70%;
@@ -11,7 +14,7 @@
 }
 
 button{
-	background-color: #0967FE;
+	background-color: var(--main-color);
 	color: white;
 	padding: 10px 20px;
 	border: none;
